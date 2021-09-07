@@ -1,0 +1,451 @@
+@media only screen and (min-width:464px) and (max-width: 1000px)   {
+            
+    .services-container {
+        align-items: center ;
+        margin-bottom: 37%;
+    }
+    .services-container-for-patients {
+        height: 300px;
+        margin-bottom: 2%;
+        width: 100%;
+    }
+    .services-container-for-patients-image img {
+        display: block;
+        margin-block-start: -3em;
+        margin-inline-start: 16em;
+        margin-inline-end: 305px;
+    }
+    .services-container-for-doctors {
+        height: 300px;
+        width: 100%;
+    }
+    .services-container-for-doctors-image img {
+        display: block;
+        margin-block-start: -5em;
+        margin-inline-start: 9em;
+        margin-inline-end: 305px;
+    }
+
+        .stats-container {
+            padding: 0%;
+        }
+        .introduction-logo img {
+            display: none;
+        }
+        .stats-box-colomn-1 {
+            margin-top:3%;
+        }
+        .box-1,.box-2 {
+            height: 190px;
+        }
+        .stats-box-logo img {
+            display:none;
+        }
+        .stats-box-colomn-2 {
+            margin-top: 3%;
+        }
+        .box-3,.box-4 {
+            height: 150px;
+        }
+        .box-3 p {
+            margin-right: 0%;
+        }
+        .box-4 p {
+            margin-top: -4%;
+            margin-right: 0%;
+        }
+        .offices-colomn-1 , .offices-colomn-2 {
+            display: flex;
+            flex-direction: column ;   
+        }
+        .opening-information input {
+            margin-right: 21%;
+            margin-top: 10%;
+        }
+        .offices-box-image img {
+            border: 2px solid black ;
+            width: 100% ;
+        }
+        .offices-box {
+            margin-bottom:4%;
+        }
+        
+        .offices-list {
+            text-align: right;
+            margin-left: -23%;
+            margin-top: 2%;
+        }
+        footer p {
+            text-align:left;
+        }
+        footer br {
+            display: none ;
+        }
+}
+header {
+    position: fixed;
+    top:0%;
+    left: 0%;
+    border: 1px solid white;
+    background-color: white;
+   
+    }
+    .navigation {
+        display: flex;
+    }
+    .docplanner-logo {
+        width: 70%;
+        display: block;
+        margin-block-start: 2%;
+        margin-block-end: 2%;
+        margin-inline-start: 2%;
+        margin-inline-end: 2%;}
+    .docplanner-logo img {
+        width:35%;
+    }
+    .nav-links {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+    }
+    .nav-links a {
+        text-decoration: none;
+        color:  rgb(0, 179, 155);
+        margin:18px;
+      font-family:  Roboto, Arial, sans-serif;
+    }
+    .container{
+        padding: 10%;
+    }
+    .general-infos-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .Docplanner-sygnet {
+       display:flex;
+       justify-content: center;
+    }
+    .general-infos-container h1 {
+        width: 50%;
+        margin-left: 25%;
+        color:  rgb(0, 179, 155);
+        font-family:"Work Sans", Arial, sans-serif;
+    }
+    .discreption-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        text-align: left;
+        margin-left: 8%;
+    }
+    .services-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-left: 7%;
+        height: 332px;
+    }
+    .services-container h2 {
+        font-size: 20px;
+        font-weight: 500;
+        margin-left:6%;
+        color: rgb(255, 255, 255);
+    }
+    .services-container h1 {
+        margin-left: 6%;
+        color: white;
+    }
+    .countries-existing {
+        margin-left: 6%;
+        padding: 3%;
+        border-radius: 10px;
+    }
+    .services-container-for-patients {
+        border: 1px solid rgb(255, 249, 249);
+        border-radius: 25px;
+        width: 45%;
+        background-color:     rgb(0, 179, 155);
+        overflow: hidden;
+    }
+    .services-container-for-patients-image {
+        display: block;
+        margin-block-start: -4em;
+        margin-block-end: 3em;
+        margin-inline-start: 15px;
+        margin-inline-end: 100px;   
+    }
+    
+    
+    .adress-container {   
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+    .adress-container h1 {
+        font-family:  "Work Sans", Arial, sans-serif;
+        color: rgb(0, 179, 155);
+        width: 30%;
+    }
+    .adress-list-of-links {
+        width:70%;
+        margin-left: 10%;
+    }
+    .adress-list-of-links ul {
+        list-style-type: none;
+        line-height: 3;
+        margin: 10;
+        padding: 10;
+        overflow: hidden;
+    }
+    .adress-list-of-links li {
+        float:left;
+        margin-right: 15px;
+    }
+    .adress-list-of-links li a {
+        color:rgb(255, 255, 255);
+        text-decoration: none;
+    }
+    .adress-list-of-links img {
+        height: 22px;
+    }
+    .stats-container {
+        background: linear-gradient(80deg,white,   rgb(0, 179, 155));
+        display: flex;
+        height: 380px;
+        padding: 4%;
+        overflow: hidden;
+    }
+    .introduction-box {
+        width: 30%;
+    }
+    .introduction-box h1 {
+        color:  rgb(0, 179, 155);
+        font-family: "Work Sans", Arial, sans-serif;
+        margin-bottom: 7%;
+    }
+    .introduction-box p {
+        opacity: 0.4;
+    }
+    .introduction-logo img {
+        height: 231px;
+        width: 100%;
+        margin-top: 5%;
+    }
+    .stats {
+        text-align: center;
+        width: 60%;
+        margin: 0 4% 0 19%;
+    }
+    .stats h1 {
+        color:  rgb(0, 179, 155);
+        font-family: "Work Sans", Arial, sans-serif;
+    }
+        .stats-box {
+            height: 190px;
+            background-color: white;
+            border-radius: 7%;
+            width: 45%;
+            margin-right: 5%;
+        }
+        .stats-box-colomn-2 {
+            display: flex;
+            margin-top:5%;
+        }
+        .stats-box-colomn-1 {
+            display: flex;
+        }
+    
+    .box-3 p {
+        margin-right: 17%;
+        margin-top: -5%;
+    }
+    .box-4 p {
+        margin-right: 17%;
+    }
+    .offices-description {
+        text-align: center;
+    }
+    .offices-description h1 {
+        color:  rgb(0, 179, 155);
+        font-family:"Work Sans", Arial, sans-serif;
+    }
+    .offices-description p {
+        text-align: center;
+        color: black;
+        opacity: .7;
+    }
+    .offices-colomn-1 {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .offices-colomn-2 {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 3%;
+    }
+    .offices-colomn-1 h1 {
+        font-family: "Work Sans", Arial, sans-serif;
+    }
+    .offices-box h2 {
+        font-family: "Work Sans", Arial, sans-serif;
+     
+    }
+    .opening-information {
+        text-align: right;
+        margin-top: -17%;
+    }
+    .opening-information input {
+        background-color: rgb(6, 114, 255);
+        color:white;
+        height: 31px;
+        border-radius: 25px;
+
+        }
+
+  
+    .footer {
+        display: flex;
+        text-align: center;
+    }
+    .footer p {
+        width: 32%;
+        color: black;
+        opacity: .7;
+        margin-left: 15%;
+        margin-bottom: 0.5%;
+    }
+    .offices-list {
+        width: 50%;
+        margin-left: -16%;
+        margin-top: 1.2%;
+    }
+    .footer a {
+        text-decoration: none;
+        color:   rgb(0, 179, 155);
+    }
+
+    
+
+    .navbar {
+        overflow: hidden;
+        background-color: #333;
+        font-family: Arial;
+      }
+      
+     .navbar a {
+        float: left;
+        font-size: 16px;
+        color: rgb(255, 219, 219);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+      
+      
+      .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color:  rgb(0, 179, 155);
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit; 
+        margin: 0; 
+      }
+      
+      
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: rgb(255, 255, 255);
+      }
+      
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #fafafa;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+     
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+      
+     
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+      
+     
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .services{
+          display:flex ;
+         
+      }
+      .service-card-patients{
+        background-color: #00ccb1;
+      font-family: "Work Sans", Arial, sans-serif;
+      font-size: 19px;
+      font-weight:100;
+      line-height: 23.8px;
+      font-color: rgb(255,255,255);
+color: white;
+      padding: 20px; 
+      margin: 10px;
+      }
+      .service-card-doctors{
+background-color: #3d83df;
+font-family: "Work Sans", Arial, sans-serif;
+font-size: 19px;
+font-weight:200;
+line-height: 23.8px;
+font-color: rgb(255,255,255);
+padding: 20px; 
+color: white;
+margin: 10px;
+      }
+      .service-card-clinics{
+          background-color: #1b2734;
+          font-family: "Work Sans", Arial, sans-serif;
+          font-size: 19px;
+          font-weight:200;
+          line-height: 23.8px;
+          font-color: rgb(255,255,255);
+          padding: 20px; 
+          color: white;
+          margin: 10px;
+      }
+      #wael{
+        font-size: 2.1428571429em;
+        color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+      }
+      .btn {
+        background-color: #3336eb; 
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        justify-content: center;
+      }
